@@ -3,58 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="img/22215dog_98826.png" />
+    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animales</title>
-    <style>
-      body {
-        background: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
-        background-repeat: repeat;
-        color: wheat;
-        font-family: sans-serif;
-      }
-      main {
-        width: 100%;
-        max-width: 1000px;
-        margin: auto;
-      }
-
-      .imagenes {
-        width: 100%;
-        max-width: 1000px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 300px;
-        justify-items: center;
-        align-items: space-evenly;
-      }
-
-      .imagenes img {
-        width: 90%;
-        height: 80%;
-        border-radius: 10px;
-        box-shadow: 0 0 10px white;
-        margin: 10px 0;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <main>
-      <h1>API DE PERRITOSSSSSSSSSSSSSSSSSSSSSSSSSS</h1>
+      <h1 class="titulo">
+        Encontraras todo tipo de imagenes de lindos peluditos asi como tambien
+        puedes subir la foto de tu mascota
+      </h1>
       <span id="messages"></span>
-      <section class="perritosRandom">
-        <h2>perrito random</h2>
-        <button id="getRandom">Ver Mas</button>
+      <section class="perritosRandom container">
+        <h2 class="segundo-titulo">perrito random</h2>
+        <button id="getRandom" class="btn-mas">Ver Mas</button>
 
         <div id="imagenes"></div>
       </section>
-      <section id="containerFavoritos" class="perritosFavoritos">
+      <section id="containerFavoritos " class="perritosFavoritos container">
         <h2>perritos favoritos</h2>
         <div id="perritosFavoritos" class="perritosFavoritos"></div>
       </section>
 
       <section>
-        <h2>Cargar imagen</h2>
+        <h2 class="segundo-titulo">Cargar imagen</h2>
         <form id="formData">
           <input type="file" name="file" id="file" />
 
@@ -62,6 +36,13 @@
         </form>
       </section>
     </main>
+
+    <footer>
+      <small
+        >Hecho por
+        <a href="https:aaroncode.net" target="_blank">aaroncode</a></small
+      >
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
