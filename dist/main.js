@@ -5,7 +5,7 @@ const app = axios.create({
 app.defaults.headers.common["X-API-KEY"] =
   "7f4a02b3-15b2-4937-8740-d4e74e548b9c";
 const URL =
-  "https://api.thedogapi.com/v1/images/search?limit=3&api_key=7f4a02b3-15b2-4937-8740-d4e74e548b9c";
+  "https://api.thedogapi.com/v1/images/search?limit=2&api_key=7f4a02b3-15b2-4937-8740-d4e74e548b9c";
 
 const URL_FAVORITES = "https://api.thedogapi.com/v1/favourites";
 const URL_FAVORITES_UPLOAD = "https://api.thedogapi.com/v1/images/upload";

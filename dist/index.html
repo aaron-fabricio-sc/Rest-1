@@ -12,34 +12,34 @@
   <body>
     <main>
       <h1 class="titulo">
-        Encontraras todo tipo de imagenes de lindos peluditos asi como tambien
-        puedes subir la foto de tu mascota
+        Encontraras todo tipo de imagenes de lindos peluditos y podras guardalas
+        asi como tambien puedes subir la foto de tu mascota
       </h1>
       <span id="messages"></span>
+
+      <section class="container">
+        <h2 class="segundo-titulo">Seleciona una imagen</h2>
+        <form id="formData">
+          <input type="file" name="file" id="file" class="file" />
+
+          <button class="btnCargar">Subir Imagen</button>
+        </form>
+      </section>
       <section class="perritosRandom container">
-        <h2 class="segundo-titulo">perrito random</h2>
-        <button id="getRandom" class="btn-mas">Ver Mas</button>
+        <h2 class="segundo-titulo">perritos random</h2>
+        <button id="getRandom" class="btn-mas">Ver Mas...</button>
 
         <div id="imagenes"></div>
       </section>
       <section id="containerFavoritos " class="perritosFavoritos container">
-        <h2>perritos favoritos</h2>
-        <div id="perritosFavoritos" class="perritosFavoritos"></div>
-      </section>
-
-      <section>
-        <h2 class="segundo-titulo">Cargar imagen</h2>
-        <form id="formData">
-          <input type="file" name="file" id="file" />
-
-          <button class="btnCargar">Subir Imagen</button>
-        </form>
+        <h2 class="segundo-titulo">perritos favoritos</h2>
+        <div id="perritosFavoritos" class="imagenes"></div>
       </section>
     </main>
 
     <footer>
       <small
-        >Hecho por
+        >Hecho por ©
         <a href="https:aaroncode.net" target="_blank">aaroncode</a></small
       >
     </footer>
